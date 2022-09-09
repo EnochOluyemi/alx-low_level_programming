@@ -2,5 +2,7 @@
 
 int main()
 {
-	printf("Hello world");
+	int c[] = "Hello world";
+	printf("%s\n", c);
+	return 0;
 }
