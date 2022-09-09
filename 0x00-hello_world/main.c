@@ -1,16 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints Hello world.
+ * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int c;
-	int c[] = "Hello world";
-
-	printf("%s\n", c);
-	return (0);
+    return (0);
 }
