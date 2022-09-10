@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - output all single digit number of base 10
  *
- * Return: 0 (Success)
+ * Return: 0 if successful
  */
 int main(void)
 {
-	char alphabet = 'a';
+	int var;
 
-	while (alphabet <= 'z')
-	{
-		if (alphabet != 'q' && alphabet != 'e')
-			putchar(alphabet);
-		alphabet++;
-	}
-	putchar('\n');
+	for (var = 0; var < 10; var++)
+		printf("%d", var);
+
+	printf("\n");
 
 	return (0);
 }
