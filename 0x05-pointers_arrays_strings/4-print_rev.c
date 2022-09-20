@@ -7,7 +7,7 @@
  *
  */
 
-void print_rev(char *s)
+void print_rev(char *str)
 {
         int i, len = strlen(str);
 
