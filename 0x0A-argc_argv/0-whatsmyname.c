@@ -1,16 +1,18 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Entry point
- * @argc: number of params
- * @argv: array of params
+ * main - main function
+ * @argc: number of actual arguements passed to main function
+ * @argv: pointer to the first element in the array of arguements
  *
- * Return: Always 0 (Success)
+ * Return: 0 if success
+ *
  */
 
-int main(__noerr int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
-
-	return (0);
-}	
+	(void)argc;
+	exit(EXIT_SUCCESS);
+}
